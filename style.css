@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+header{
+    margin: 47px 0 178px 42px;
+}
+
+a {
+    width: 83px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    text-align: center;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 36px;
+}
+
+a:hover{
+    color: #38538d;
+}
+
+a:active{
+    color: #0e1e42;
+}
+
+.botton-signup{
+    width: 121px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px;
+    background: #6FBF44;
+    border-color: #4CB538;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.botton-signup:hover{
+    background: #82bb63; 
+}
+
+.botton-signup:active{
+    background: #4b812d;
+}
+
+img{
+    width: 595px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 121px;
+    position: relative;
+    top: -48px;
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p{
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 47px 0 55px 0;
+}
+
+
+.botton-learn{
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.botton-learn:hover{
+    color: #88bb6d;
+}
+
+.botton-learn:active{
+    color: #4ead1a;
+}
+
+main{
+    display: inline-block;
+    margin: 0 0 114px 84.82px;
+    position: relative;
+    top: -104px;
+}
+
+@media screen and (max-width: 900px){
+
+    div{
+        margin: 0;
+        padding: 0;
+    }
+
+    a{
+        display: none;
+    }
+
+    .botton-signup{
+        margin-right: 15px; 
+        margin-left: 284px;
+    }
+
+    img{
+        width: 312px;
+        height: 288px;
+        display: block;
+        margin-left: 190px;
+    }
+
+    h1{
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+    }
+
+    p{
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    .botton-learn{
+        width: 112px;
+        height: 27px;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        
+    }
+
+    main{
+        text-align: center;
+        display: block;
+        margin: 76px 43px 59px 227px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse; /* Inverte a ordem dos elementos */
+        align-items: center;
+        width: 300px;
+    }
+
+} 
